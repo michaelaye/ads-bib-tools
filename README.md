@@ -78,14 +78,21 @@ The script is idempotent — running it again updates the file cleanly without d
 
 ## Integration with Quarto
 
-The tagged `keywords` field works with the [chronobib](https://github.com/michaelaye/chronobib) Quarto extension to display refereed and non-refereed publications in separate tabset panels, each grouped by year:
+The tagged `keywords` field works with these companion Quarto extensions:
+
+- [chronobib](https://github.com/michaelaye/chronobib) — groups bibliography entries by year, with optional refereed/non-refereed tab splitting
+- [highlight-author](https://github.com/michaelaye/highlight-author) — highlights a specific author's name in bibliography entries
+
+Example using all three together:
 
 ```yaml
 ---
 bibliography: MyPublications.bib
 citeproc: false
 filters:
+  - michaelaye/highlight-author
   - michaelaye/chronobib
+highlight-author: "Aye"
 chronobib:
   split-keyword: refereed
 ---
