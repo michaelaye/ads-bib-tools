@@ -1,5 +1,7 @@
 # ads-bib-tools
 
+[![DOI](https://zenodo.org/badge/1171942580.svg)](https://doi.org/10.5281/zenodo.18853606)
+
 Tools for managing [NASA ADS](https://ui.adsabs.harvard.edu/) bibliographies — ORCID-based fetching, cleanup, and metadata enrichment for [Quarto](https://quarto.org) websites and static sites.
 
 ## Why?
