@@ -16,10 +16,19 @@ Existing ADS bibliography tools ([adstex](https://github.com/yymao/adstex), [fil
 ## Installation
 
 ```bash
+git clone https://github.com/michaelaye/ads-bib-tools.git
+cd ads-bib-tools
 pip install requests
 ```
 
-No other dependencies. Just a single Python script.
+Or just grab the script directly:
+
+```bash
+curl -O https://raw.githubusercontent.com/michaelaye/ads-bib-tools/main/update_bib.py
+pip install requests
+```
+
+No other dependencies — `requests` is the only requirement.
 
 ## Setup
 
