@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-03-03
+
+### Added
+
+- `CITATION.cff` for standardized citation metadata (GitHub "Cite this repository" support).
+- Zenodo DOI badge in README.
+
+### Fixed
+
+- Installation instructions now include how to retrieve the script (`git clone` and `curl` options).
+
 ## [0.1.0] - 2026-03-03
 
 ### Added
@@ -17,4 +28,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Idempotent keyword tagging — safe to re-run without duplicating tags.
 - CLI interface with `--orcid`, `--output`, `--strip-fields`, and `--no-refereed-tag` options.
 
+[0.1.1]: https://github.com/michaelaye/ads-bib-tools/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/michaelaye/ads-bib-tools/releases/tag/v0.1.0

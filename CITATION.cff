@@ -7,7 +7,7 @@ authors:
   - family-names: Aye
     given-names: Michael
     orcid: "https://orcid.org/0000-0002-4088-1928"
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-03-03
 license: MIT
 repository-code: "https://github.com/michaelaye/ads-bib-tools"
