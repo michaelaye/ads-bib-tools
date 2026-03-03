@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "ads-bib-tools"
+abstract: "Tools for managing NASA ADS bibliographies — ORCID-based fetching, cleanup, and metadata enrichment for Quarto and static sites."
+authors:
+  - family-names: Aye
+    given-names: Michael
+    orcid: "https://orcid.org/0000-0002-4088-1928"
+version: 0.1.0
+date-released: 2026-03-03
+license: MIT
+repository-code: "https://github.com/michaelaye/ads-bib-tools"
+doi: "10.5281/zenodo.18853606"
+keywords:
+  - nasa-ads
+  - bibliography
+  - orcid
+  - bibtex
+  - quarto
